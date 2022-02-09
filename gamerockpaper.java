@@ -1,14 +1,14 @@
 import java.io.*;
 import java.util.*;
 
-class rockpaper {
+class gamerockpaper {
      public static void main(String[] args) throws IOException {
           int yourwin = 0;
           int botwin = 0;
           int matchtie = 0;
           System.out.println("GAME DEVELOPED BY RITURAJ");
           System.out.println("============================================================================");
-          Scanner csc = new Scanner(System.in);
+          Scanner ritu = new Scanner(System.in);
           for (int i = 1; i > 0; i++)// infinite loop for infinite play
           {
                System.out.println("Enter rock,paper or scissor else type Exit if you want to quit");
@@ -78,6 +78,6 @@ class rockpaper {
                     ++botwin;
                }
           }
-          csc.close();
+          ritu.close();
      }
 }
