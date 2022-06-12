@@ -6,7 +6,7 @@ class gamerockpaper {
           int yourwin = 0;
           int botwin = 0;
           int matchtie = 0;
-          System.out.println("GAME DEVELOPED BY RITURAJ");
+          System.out.println("GAME DEVELOPED BY RITURAJ");//just a credit
           System.out.println("============================================================================");
           Scanner ritu = new Scanner(System.in);
           for (int i = 1; i > 0; i++)// infinite loop for infinite play
