@@ -12,7 +12,7 @@ class gamerockpaper {
           for (int i = 1; i > 0; i++)// infinite loop for infinite play
           {
                System.out.println("Enter rock,paper or scissor else type Exit if you want to quit");
-               String your_play = csc.nextLine().toLowerCase();// lol we can save memory by inputing lower case in same
+               String your_play = ritu.nextLine().toLowerCase();// lol we can save memory by inputing lower case in same
                                                                // line
                String bot_play = " ";
                int bot_choice = (int) (Math.random() * 1000);// randomly generating the numbers 1,2,3
@@ -26,7 +26,7 @@ class gamerockpaper {
                     bot_play = "scissor";
                }
                /* FROM HERE THE MAIN COMPARISION OF THE PROGRAM BEGINS!! */
-               System.out.println(bot_choice);
+               //System.out.println(bot_choice);just use it if you want to check randomly generated numbers
                if (your_play.equals("exit")) {
                     System.out.println("Exiting the game....");
                     System.out.println("HERE IS THE POINT TABLE OF GAME:");
